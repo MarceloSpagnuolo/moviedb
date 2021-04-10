@@ -1,0 +1,25 @@
+.cnt {
+    padding-top: 10px;
+}
+
+.listado {
+    display: flex;
+}
+
+.item {
+    text-decoration: none;
+}
+
+.X-Btn {
+    background-color: red;
+    color: white;
+    border-radius: 20%;
+    border: none;
+    height: 3vh;
+}
+
+.X-Btn:hover {
+    cursor: pointer;
+    background-color: tomato;
+    box-shadow: 3px 3px 3px black;
+}

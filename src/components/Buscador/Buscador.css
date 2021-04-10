@@ -1,0 +1,65 @@
+.cnt {
+    padding-top: 10px;
+}
+.form-container {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.form-container button {
+    margin-left: 20px;
+}
+.label {
+    padding-right: 10px;
+}
+
+.listado {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.titulo {
+    width: 300px;
+}
+
+.Buscador-Container {
+    background-color: lightsteelblue;
+    width: 45%;
+    margin: 5% 0 0 5%;
+    padding: 2%;
+    overflow-y: auto;
+    box-shadow: 10px 10px 10px black;
+    max-height: 70vh;
+}
+
+.Item {
+    text-decoration: none;
+}
+
+.Poster {
+    width: 50px;
+}
+
+.Poster:hover {
+    transition: all .3s;
+    transform: scale(3);
+    box-shadow: 15px 15px 15px black;
+}
+
+.Btn-Fav {
+    height: 4vh;
+    background-color: green;
+    color: white;
+    border-radius: 20%;
+}
+
+.Btn-Fav:hover {
+    cursor: pointer;
+    background-color: limegreen;
+    box-shadow: 3px 3px 3px black;
+}
